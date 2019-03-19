@@ -1,0 +1,53 @@
+body,button, input, select, textarea,h1 ,h2, h3, h4, h5, h6 { 
+	font-family: Microsoft YaHei,'宋体' , Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
+	color: #323232;
+}
+.textbox-invalid {
+    border-color: #f0f0f0;
+}
+
+.xy_ffqTransView_header {
+	font-size: 20px;
+	font-weight: bolder;
+	text-align: center;
+	margin: 60px auto 0px;
+}
+.xy_title_container {
+	margin-top: 60px;
+	margin-bottom: 10px;
+}
+.xy_title_icon {
+	color: #0094ec;
+	line-height: 16px;
+	letter-spacing: -4px;
+}
+.xy_title {
+	font-size: 16px;
+	text-align: right;
+}
+.xy_widget_container {
+
+}
+.xy_widget {
+	font-size: 16px;
+	text-align: left;
+}
+.xy_nopadding {
+	padding: 0px;
+}
+.xy_fontnormal {
+	font-weight: normal;
+}
+.xy_underline_tip {
+	margin-top: 18px;
+}
+.xy_btn_submit {
+	height: 30px;
+	width: 80px;
+	border: 0;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 2px;
+	font-size: 14px;
+}

@@ -1,0 +1,5 @@
+.inputStyle {
+    vertical-align: text-bottom;
+    margin-bottom: 2px;
+    *margin-bottom: -2px;  //兼容IE6，IE7
+}

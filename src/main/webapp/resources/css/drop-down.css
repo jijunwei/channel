@@ -1,0 +1,54 @@
+/* Customize the navbar links to be fill the entire space of the .navbar */
+      .navbar_ .navbar-inner_ {
+        padding: 0;
+      }
+      .navbar_ .nav_ {
+        margin: 0;
+        display: table;
+        width: 100%;
+      }
+      .navbar_ .nav_ li {
+        display: table-cell;
+        width: 1%;
+        float: none;
+        position:relative;
+      }
+      .navbar_ .nav_ li a {
+        display:inline-block;
+        width:87%;
+        font-weight: bold;
+        text-align: center;
+        /*border-left: 1px solid rgba(255,255,255,.75);*/
+        border-right: 1px solid rgba(0,0,0,.1);
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    	font-size: 18px;
+        
+      }
+      .navbar_ .nav_ li:first-child a {
+        border-left: 0;
+        border-radius: 3px 0 0 3px;
+      }
+      .navbar_ .nav_ li:last-child a {
+        border-right: 0;
+        border-radius: 0 3px 3px 0;
+      } 
+      
+     /*下拉框样式*/
+     	#navul li ul{display:none;position:absolute;z-index:10000;top:41px;left:-1px;background:#ffffff;border-bottom:none;border:1px solid #cccccc;}
+		#navul li ul li{display:block;float:none;margin-right:0px;position:relative;line-height:28px;font-size:12px;border:none;}
+      	#navul li.navmoon{background:#ffffff;}
+		#navul li.navmoon a{color:#696969;border:none;}
+		#navul li.navmoon ul{display:block;margin:0;padding:0;}
+		#navul li.navmoon ul a{display:inline-block; width:201px;font-weight: bold;font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;font-size: 14px;padding:10px 15px 10px;}
+		#navul li.navmoon ul a:hover{background:#eaeaea;color:#333333;text-decoration:none;}
+		
+		
+		#navul li ul li ul{display:none;position:absolute;z-index:10000;top:0px;left:232px;background:#ffffff;border-bottom:none;border:1px solid #cccccc;}
+		#navul li ul li ul li{display:none;float:none;margin-right:0px;position:relative;line-height:28px;font-size:12px;border:none;}
+      	#navul li.navmoons{background:#ffffff;}
+		#navul li.navmoons a{color:#696969;border:none;}
+		#navul li.navmoons ul{display:block;margin:0;padding:0;}
+		#navul li.navmoons ul li{display:block;margin:0;padding:0;}
+		#navul li.navmoons ul a{display:inline-block; width:203px;font-weight: bold;font-family:"微软雅黑", "Helvetica Neue",Helvetica,Arial,sans-serif;font-size: 14px;padding:10px 15px 10px;}
+		#navul li.navmoons ul a:hover{background:#eaeaea;color:#333333;text-decoration:none;}
+	/*下拉框样式*/	
